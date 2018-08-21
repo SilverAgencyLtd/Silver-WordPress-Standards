@@ -1,0 +1,28 @@
+{
+  "name"       : "silveragency/wpcs",
+  "description": "PHP_CodeSniffer rules (sniffs) to enforce WordPress coding conventions, with Silver Agency rule exceptions.",
+  "keywords"   : ["phpcs", "standards", "WordPress"],
+  "license"    : "GPL-3.0-or-later",
+  "authors"    : [
+    {
+      "name"    : "Contributors",
+      "homepage": "https://github.com/SilverAgencyLtd/Silver-WordPress-Standards/graphs/contributors"
+
+    }
+  ],
+  "require"    : {
+    "php" : ">=5.3",
+    "squizlabs/php_codesniffer": "^2.9.0 || ^3.0.2",
+    "wp-coding-standards/wpcs": "^1.0.0"
+  },
+  "require-dev" : {
+    "phpcompatibility/php-compatibility": "*"
+  },
+  "minimum-stability" : "RC",
+  "support"    : {
+    "issues": "https://github.com/SilverAgencyLtd/Silver-WordPress-Standards/issues",
+    "wiki"  : "https://github.com/SilverAgencyLtd/Silver-WordPress-Standards/wiki",
+    "source": "https://github.com/SilverAgencyLtd/Silver-WordPress-Standards"
+  },
+  "type"       : "phpcodesniffer-standard"
+}
